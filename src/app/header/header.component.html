@@ -1,0 +1,8 @@
+<header class="header">
+  <h1>待办事项 - Angular 17</h1>
+  <input class="new-todo"
+    [(ngModel)]="title"
+    autofocus=""
+    placeholder="What needs to be done?"
+    (keyup.enter)="addTodo()" />
+</header>
